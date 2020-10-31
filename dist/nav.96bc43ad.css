@@ -1,0 +1,106 @@
+nav {
+  float: right;
+}
+
+.menu {
+  margin-top: 1em;
+  width: 40px;
+  margin-right: 1em;
+}
+
+nav ul {
+  position: fixed;
+  list-style: none;
+  padding: 1em 0 0 0;
+  margin: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(36, 41, 44, 0.9);
+  height: 315px;
+  z-index: 4;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5em;
+}
+
+nav ul li {
+  font-size: 1.6rem;
+}
+
+.exit-btn {
+  float: right;
+  margin: 0.3em 0.5em 0 0;
+  cursor: pointer;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+.current-screen {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 780px) {
+  nav ul li {
+    padding: 0 1rem;
+    font-size: clamp(1.6rem, 2vw, 3rem);
+    float: left;
+  }
+
+  .show-desktop {
+    display: block;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  nav {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul {
+    position: inherit;
+    width: auto;
+    background: none;
+  }
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+  }
+
+  .cool-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav ul li {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  nav ul li {
+    padding: 0 9rem;
+  }
+}
+/* @media screen and (max-width: 1000px); */
+
+
+/*# sourceMappingURL=/nav.96bc43ad.css.map */
