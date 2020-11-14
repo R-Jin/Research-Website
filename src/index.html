@@ -13,58 +13,183 @@
 
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/home.css" />
   </head>
   <body>
-    <main>
+    <!-- fix later if you have time -->
+    <!-- <button id="btn-top">
+      <img src="/img/icons/Vector.svg" alt="top" id="arrow" />
+    </button> -->
+    <main data-scroll-container>
       <section id="hero-image">
+        <!-- Navbar -->
         <nav>
           <a href="#" class="hide-desktop">
-            <img src="/img/ham.svg" alt="toggle menu" class="menu" id="menu" />
+            <img
+              src="/img/icons/ham.svg"
+              alt="toggle menu"
+              class="menu"
+              id="menu"
+            />
           </a>
 
           <ul class="show-desktop hide-mobile" id="nav">
             <li id="exit" class="exit-btn hide-desktop">
-              <img src="/img/exit.svg" alt="exit menu" />
+              <img src="/img/icons/exit.svg" alt="exit menu" />
             </li>
             <li>
               <a href="index.html" class="current-screen cool-link">Home</a>
             </li>
             <li><a href="#" class="cool-link">Members</a></li>
+            <li><a href="#" class="cool-link">News</a></li>
             <li><a href="#" class="cool-link">Contact Us</a></li>
+            <div id="icons2">
+              <a
+                href="https://www.scopus.com/authid/detail.uri?authorId=35792221600"
+                ><img src="img/logos/scopus.png" alt="Scopus" class="icon2"
+              /></a>
+              <a href="https://orcid.org/0000-0001-9039-0628"
+                ><img src="img/logos/orcid.png" alt="Orcid" class="icon2"
+              /></a>
+              <a href="https://publons.com/researcher/1279100/tao-jin/"
+                ><img src="img/logos/publons.png" alt="publons" class="icon2"
+              /></a>
+            </div>
           </ul>
         </nav>
+
+        <!-- Hero Section -->
         <div class="hero-text">
           <h1 class="primary-title">Tao's Lab</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-            quos!
+          <p id="second-text">
+            The world leading lab in animal model for septic arthritis
           </p>
+
+          <!-- icons -->
+          <div id="icons">
+            <a href="https://www.vr.se/om-vetenskapsradet.html"
+              ><img src="img/logos/vr.png" class="icon" id="vr"
+            /></a>
+            <a href="https://www.alfvastragotaland.se/exempel-undersida/"
+              ><img src="img/logos/alf.png" class="icon" id="alf"
+            /></a>
+            <a
+              href="https://www.gu.se/omuniversitetet/personal?userId=xjinta&userName=Tao%20Jin"
+              ><img src="img/logos/gu.png" class="icon" id="gu"
+            /></a>
+          </div>
+
+          <div id="nav-btn">
+            <!-- Research Interest button -->
+            <div class="btn" id="scroll-r">
+              <p>See Research Interests</p>
+            </div>
+
+            <!-- Publications button -->
+            <div class="btn" id="scroll-p">
+              <p>See Publications</p>
+            </div>
+          </div>
+        </div>
+        <div id="desktop-i">
+          <div id="icons2-desktop">
+            <a
+              href="https://www.scopus.com/authid/detail.uri?authorId=35792221600"
+              ><img src="img/logos/scopus.png" alt="Scopus" class="icon2"
+            /></a>
+            <a href="https://orcid.org/0000-0001-9039-0628"
+              ><img src="img/logos/orcid.png" alt="Orcid" class="icon2"
+            /></a>
+            <a href="https://publons.com/researcher/1279100/tao-jin/"
+              ><img src="img/logos/publons.png" alt="publons" class="icon2"
+            /></a>
+          </div>
+          <div id="icons-desktop">
+            <a href="https://www.vr.se/om-vetenskapsradet.html"
+              ><img src="img/logos/vr.png" class="icon" id="vr"
+            /></a>
+            <a href="https://www.alfvastragotaland.se/exempel-undersida/"
+              ><img src="img/logos/alf.png" class="icon" id="alf"
+            /></a>
+            <a
+              href="https://www.gu.se/omuniversitetet/personal?userId=xjinta&userName=Tao%20Jin"
+              ><img src="img/logos/gu.png" class="icon" id="gu"
+            /></a>
+          </div>
         </div>
       </section>
 
-      <section id="intro">
-        <div class="container">
-          <h2>Research Interests</h2>
+      <section id="ri">
+        <div class="container" id="research">
+          <div>
+            <h2 class="s-title">Our Research Interests</h2>
+            <p>
+              Septic arthritis remains one of the most dangerous joint diseases
+              with total joint destruction in few days if without treatments.
+              Despite advances in the use of antibiotics, permanent reductions
+              in joint function occur in up to 50% of patients, requiring joint
+              replacement surgery in many cases. We want to:
+
+              <br />
+              <br />
+              <strong>1.</strong> Understand at molecular and cellular levels
+              why this disease is so devastating
+              <br />
+              <br />
+              <strong>2.</strong> Design the new therapeutic modality leading to
+              a better outcome for patients.
+
+              <br />
+              <br />
+              The experimental settings, epidemiological studies, and patient
+              cohorts will be used to answer those questions.
+            </p>
+          </div>
+          <img src="/img/other/fig1.jpg" alt="Figure 1" id="fig1" />
+        </div>
+      </section>
+
+      <section>
+        <div class="container" id="expertise">
+          <div>
+            <h2 class="s-title">Our Expertise</h2>
+            <p>
+              Tao’s lab is considered as a world-leading expert on murine models
+              of S. aureus septic arthritis. Now we are expanding the research
+              area with epidemiological studies in collaboration with the
+              epidemiologists. Also, a clinical trial is at the planning phase
+              together with several experts in infectious diseases.
+              <br /><br />
+              Our ambition is that in 5–10 years Tao’s lab will become one of
+              the best labs in the world specializing in bone and joint
+              infections and we will be able to bridge our pre-clinical research
+              with population studies and clinical settings.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container" id="publication">
+          <h2 class="s-title">Selected Publications</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-            porro tempora exercitationem repudiandae odit dolore quas error,
-            delectus vero ea, maxime in explicabo sint impedit libero asperiores
-            voluptatem eligendi cumque!
+            <strong>1.</strong>
+            <br /><br />
+            <strong>2.</strong>
+            <br /><br />
+            <strong>3.</strong>
+            <br /><br />
+            <strong>4.</strong>
+            <br /><br />
           </p>
-        </div>
-      </section>
-
-      <section id="members">
-        <div class="container">
-          <h2>Members</h2>
-        </div>
-      </section>
-
-      <section id="Ph.D Students">
-        <div class="container">
-          <h2>Ph.D Students</h2>
+          <a
+            href="https://www.scopus.com/authid/detail.uri?authorId=35792221600"
+            ><div class="btn" id="scopus">
+              <p>Full Publication List</p>
+            </div></a
+          >
         </div>
       </section>
 

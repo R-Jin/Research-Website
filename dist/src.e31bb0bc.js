@@ -2709,9 +2709,24 @@ var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var button = document.getElementById("scroll-r");
+var button2 = document.getElementById("scroll-p");
+var target = document.querySelector("#ri");
+var target2 = document.querySelector("#scopus");
 var scroll = new _locomotiveScroll.default({
   el: document.querySelector('[data-scroll-container]'),
-  smooth: true
+  smooth: true,
+  smoothMobile: true
+});
+button.addEventListener("click", function (e) {
+  scroll.scrollTo(target);
+});
+button2.addEventListener("click", function (e) {
+  scroll.scrollTo(target2);
+}); // This is to initialize locomotive when everything is reloaded
+
+window.addEventListener('load', function (event) {
+  scroll.update();
 });
 },{"locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -2741,7 +2756,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61362" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "7202" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

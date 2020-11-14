@@ -8,16 +8,25 @@ nav {
   margin-right: 1em;
 }
 
+#icons2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.icon2 {
+  height: 30px;
+}
+
 nav ul {
   position: fixed;
   list-style: none;
-  padding: 1em 0 0 0;
+  padding: 1em 0 1em 0;
   margin: 0;
   width: 100%;
   top: 0;
   left: 0;
-  background: rgb(36, 41, 44, 0.9);
-  height: 315px;
+  background: rgba(18, 19, 20, 0.95);
   z-index: 4;
 }
 
@@ -55,6 +64,10 @@ nav ul li {
     float: left;
   }
 
+  #icons2 {
+    display: none;
+  }
+
   .show-desktop {
     display: block;
   }
@@ -78,7 +91,7 @@ nav ul li {
     content: "";
     display: block;
     width: 0;
-    height: 2px;
+    height: 3px;
     background: white;
     transition: width 0.3s;
   }
@@ -93,14 +106,27 @@ nav ul li {
   nav ul li {
     padding: 0 3rem;
   }
+  #nav-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
   nav ul li {
-    padding: 0 9rem;
+    padding: 0 5rem;
   }
 }
-/* @media screen and (max-width: 1000px); */
+
+@media screen and (max-width: 1000px) {
+  #icons-desktop {
+    display: none;
+  }
+  #icons2-desktop {
+    display: none;
+  }
+}
 
 
 /*# sourceMappingURL=/nav.96bc43ad.css.map */
