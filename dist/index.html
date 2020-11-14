@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="/hamburger.35d27564.css">
     <link rel="stylesheet" href="/base.98fd6c19.css">
     <link rel="stylesheet" href="/main.c52e0fe2.css">
     <link rel="stylesheet" href="/nav.96bc43ad.css">
     <link rel="stylesheet" href="/hero.5addae85.css">
     <link rel="stylesheet" href="/home.871e090d.css">
-  <script src="/base.98fd6c19.js"></script><script src="/main.c52e0fe2.js"></script><script src="/nav.96bc43ad.js"></script><script src="/hero.5addae85.js"></script><script src="/home.871e090d.js"></script></head>
+  <script src="/hamburger.35d27564.js"></script><script src="/base.98fd6c19.js"></script><script src="/main.c52e0fe2.js"></script><script src="/nav.96bc43ad.js"></script><script src="/hero.5addae85.js"></script><script src="/home.871e090d.js"></script></head>
   <body>
     <!-- fix later if you have time -->
     <!-- <button id="btn-top">
@@ -23,14 +24,13 @@
       <section id="hero-image">
         <!-- Navbar -->
         <nav>
-          <a href="#" class="hide-desktop">
-            <img src="/ham.cb86851c.svg" alt="toggle menu" class="menu" id="menu">
-          </a>
+          <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
 
-          <ul class="show-desktop hide-mobile" id="nav">
-            <li id="exit" class="exit-btn hide-desktop">
-              <img src="/exit.32de5d57.svg" alt="exit menu">
-            </li>
+          <ul class="show-desktop hide-mobile active" id="nav">
             <li>
               <a href="/index.html" class="current-screen cool-link">Home</a>
             </li>

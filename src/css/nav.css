@@ -2,12 +2,6 @@ nav {
   float: right;
 }
 
-.menu {
-  margin-top: 1em;
-  width: 40px;
-  margin-right: 1em;
-}
-
 #icons2 {
   display: flex;
   justify-content: space-around;
@@ -27,7 +21,8 @@ nav ul {
   top: 0;
   left: 0;
   background: rgba(18, 19, 20, 0.95);
-  z-index: 4;
+  z-index: 3;
+  transition: top 0.3s ease;
 }
 
 nav ul li a {
@@ -50,7 +45,7 @@ nav ul li {
 }
 
 .hide-mobile {
-  display: none;
+  top: -100%;
 }
 
 .current-screen {
@@ -72,7 +67,7 @@ nav ul li {
     display: block;
   }
 
-  .hide-desktop {
+  .hamburger {
     display: none;
   }
 

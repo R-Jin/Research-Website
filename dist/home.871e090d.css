@@ -12,9 +12,14 @@
   background-color: #ff8200;
 }
 
+#scopus:active {
+  background-color: #ec7b02;
+}
+
 @media screen and (min-width: 1000px) {
   .s-title {
     padding-left: 0;
+    font-size: 30px;
   }
 
   #research {
@@ -63,6 +68,7 @@
 @media screen and (min-width: 1500px) {
   .s-title {
     padding-left: 0;
+    font-size: 40px;
   }
   #research {
     padding: 150px 220px 50px 220px;

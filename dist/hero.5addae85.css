@@ -46,9 +46,17 @@
   cursor: pointer;
 }
 
+#scroll-r:active {
+  background-color: rgba(117, 117, 117, 0.2);
+}
+
 #scroll-p {
   color: black;
   background-color: #fff;
+}
+
+#scroll-p:active {
+  background-color: rgb(211, 211, 211);
 }
 
 #second-text {

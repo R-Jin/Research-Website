@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./css/hamburger.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/nav.css" />
@@ -26,19 +27,13 @@
       <section id="hero-image">
         <!-- Navbar -->
         <nav>
-          <a href="#" class="hide-desktop">
-            <img
-              src="/img/icons/ham.svg"
-              alt="toggle menu"
-              class="menu"
-              id="menu"
-            />
-          </a>
+          <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
 
-          <ul class="show-desktop hide-mobile" id="nav">
-            <li id="exit" class="exit-btn hide-desktop">
-              <img src="/img/icons/exit.svg" alt="exit menu" />
-            </li>
+          <ul class="show-desktop hide-mobile active" id="nav">
             <li>
               <a href="index.html" class="current-screen cool-link">Home</a>
             </li>
