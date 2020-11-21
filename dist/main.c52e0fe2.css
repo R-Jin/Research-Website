@@ -30,6 +30,26 @@ p {
   padding: 40px;
 }
 
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(27, 27, 27);
+  color: rgb(173, 173, 173);
+}
+.f-text {
+  transition: 0.5s;
+}
+
+.f-text:visited {
+  color: rgb(160, 160, 160);
+} /* Visited link    */
+.f-text:hover {
+  color: rgb(255, 255, 255);
+}
+.f-text:active {
+  color: rgb(160, 160, 160);
+} /* Selected link   */
+
 /* #btn-top {
   display: none;
   position: fixed;

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>News</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
+    />
+    <link rel="stylesheet" href="./css/hamburger.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/news.css" />
+  </head>
+  <body>
+    <main>
+      <section id="hero-image">
+        <!-- Navbar -->
+        <nav>
+          <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+
+          <ul class="show-desktop hide-mobile active" id="nav">
+            <li>
+              <a href="index.html" class="cool-link">Home</a>
+            </li>
+            <li>
+              <a href="members.html" class="cool-link">Members</a>
+            </li>
+            <li>
+              <a href="news.html" class="current-screen cool-link">News</a>
+            </li>
+            <li>
+              <a href="contacts.html" class="cool-link">Contact Us</a>
+            </li>
+            <div id="icons2">
+              <a
+                href="https://www.scopus.com/authid/detail.uri?authorId=35792221600"
+                ><img src="img/logos/scopus.png" alt="Scopus" class="icon2"
+              /></a>
+              <a href="https://orcid.org/0000-0001-9039-0628"
+                ><img src="img/logos/orcid.png" alt="Orcid" class="icon2"
+              /></a>
+              <a href="https://publons.com/researcher/1279100/tao-jin/"
+                ><img src="img/logos/publons.png" alt="publons" class="icon2"
+              /></a>
+            </div>
+          </ul>
+        </nav>
+        <div id="news-container" data-simplebar>
+          <h1 class="title">News</h1>
+          <div class="news">
+            <h2 class="date">21/11 - 2020</h2>
+            <p class="text">
+              The new PhD student Zhicheng Hu joined the team. Welcome to the
+              team Zhicheng!
+            </p>
+          </div>
+          <div class="news">
+            <h2 class="date">31/10 - 2020</h2>
+            <p class="text">
+              The manuscript about the role of vWBP.vWF in septic arthritis is
+              now accepted by Mbio!
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <a href="https://github.com/R-Jin" class="f-text">
+            <p>
+              <strong>Designed</strong> and <strong>Developed</strong> by Ryan
+              Jin
+            </p>
+          </a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="./scripts/ham_toggle.js"></script>
+  </body>
+</html>

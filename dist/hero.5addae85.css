@@ -111,6 +111,12 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .btn {
+    width: 300px;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .btn {
     width: 400px;
@@ -120,6 +126,12 @@
 
   #second-text {
     line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .btn {
+    height: 50px;
   }
 }
 
