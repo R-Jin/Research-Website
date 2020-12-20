@@ -1,7 +1,6 @@
 #fig1 {
   padding: 20px 0 20px 0;
   max-width: 100%;
-  height: auto;
 }
 
 .s-title {
@@ -33,6 +32,7 @@ a {
   }
   #fig1 {
     width: 400px;
+    height: 100% !important;
   }
 
   #expertise {

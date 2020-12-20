@@ -71,6 +71,12 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 800px) {
+  .btn {
+    height: 50px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .icon2 {
     padding: 20px;
@@ -105,9 +111,11 @@
   }
 
   .btn {
-    width: 220px;
-    height: 80px;
+    width: 300px;
+    height: 60px;
     font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 
@@ -126,12 +134,6 @@
 
   #second-text {
     line-height: 44px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .btn {
-    height: 50px;
   }
 }
 
