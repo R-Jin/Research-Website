@@ -30,6 +30,10 @@ const members = {
     balsam: {
         name: "Balsam Hanna",
         info: "Balsam graduated as examinated physician (MD) from medical school, University of Mosul, Irak in 1993 and swedish MD at Karolinska University Hospital in 1999. She is consultant in rheumatology clinic, Sahlgrenska University Hospital since 2009. She started as a PhD student at the group in april-2019. Her PhD project is mainly focusing on investigating the cardiac involvement and osteoporosis in patients with idiopathic inflammatory myopathies."
+    },
+    anders: {
+        name: "Anders Jarneborn",
+        info: ""
     }
 }
 

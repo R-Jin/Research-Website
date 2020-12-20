@@ -1,0 +1,98 @@
+#fig1 {
+  padding: 20px 0 20px 0;
+  width: 100%;
+}
+
+.s-title {
+  padding-left: 3px;
+  padding-bottom: 8px;
+}
+
+#scopus {
+  background-color: #ff8200;
+}
+
+#scopus:active {
+  background-color: #ec7b02;
+}
+
+@media screen and (min-width: 1000px) {
+  .s-title {
+    padding-left: 0;
+    font-size: 30px;
+  }
+
+  #research {
+    padding: 150px 80px 50px 80px;
+    display: flex;
+  }
+  #fig1 {
+    width: 400px;
+  }
+
+  #expertise {
+    padding: 0 80px 0 80px;
+  }
+
+  #publication {
+    padding: 100px 100px 150px 100px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .s-title {
+    padding-left: 0;
+  }
+
+  #research {
+    padding: 150px 120px 50px 120px;
+    display: flex;
+  }
+
+  #fig1 {
+    width: 600px;
+  }
+  p {
+    line-height: 30px;
+  }
+
+  #expertise {
+    padding: 0 120px 0 120px;
+  }
+
+  #publication {
+    padding: 100px 120px 150px 120px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .s-title {
+    padding-left: 0;
+    font-size: 40px;
+  }
+  #research {
+    padding: 150px 220px 50px 220px;
+    display: flex;
+  }
+  #fig1 {
+    width: 500px;
+  }
+  p {
+    line-height: 30px;
+  }
+
+  #expertise {
+    padding: 0 220px 0 220px;
+  }
+
+  #publication {
+    padding: 100px 220px 150px 220px;
+  }
+  #scopus {
+    padding: 30px 0;
+    border-radius: 22px;
+  }
+}
+
+
+/*# sourceMappingURL=/home.871e090d.css.map */
