@@ -55,6 +55,10 @@
   font-size: 14px;
 }
 
+a {
+  color: inherit;
+}
+
 @media screen and (min-width: 600px) {
   #news-container {
     padding: 6em;
