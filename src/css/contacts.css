@@ -29,6 +29,10 @@
   align-items: inherit;
 }
 
+a {
+  color: inherit;
+}
+
 .text {
   width: 70%;
 }
