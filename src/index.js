@@ -3,7 +3,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 var button = document.getElementById("scroll-r");
 var button2 = document.getElementById("scroll-p");
 const target = document.querySelector("#ri");
-const target2 = document.querySelector("#scopus");
+const target2 = document.querySelector("#publication");
 
 const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),

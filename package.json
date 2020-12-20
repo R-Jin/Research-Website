@@ -11,8 +11,8 @@
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-    "dev": "parcel src/contacts.html",
-    "prod": "parcel build src/index.html"
+    "dev": "parcel src/members.html",
+    "prod": "parcel build src/members.html"
   },
   "keywords": [],
   "author": "",

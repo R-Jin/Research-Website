@@ -3,19 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Members</title>
+    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/main.c52e0fe2.css">
     <link rel="stylesheet" href="/hamburger.35d27564.css">
-    <link rel="stylesheet" href="/base.98fd6c19.css">
+    <link rel="stylesheet" href="/main.c52e0fe2.css">
     <link rel="stylesheet" href="/nav.96bc43ad.css">
-  </head>
+    <link rel="stylesheet" href="/members.208574d0.css">
+  <script src="/hamburger.35d27564.js"></script><script src="/main.c52e0fe2.js"></script><script src="/nav.96bc43ad.js"></script><script src="/members.208574d0.js"></script></head>
   <body>
-    <main>
-      <section id="members">
+    <main id="members-screen">
+      <div class="box" id="box">
+        <div class="box-header">
+          <div class="title" id="title"></div>
+          <button data-close-button="" class="close-button">&times;</button>
+        </div>
+        <div class="box-body" id="box-body"></div>
+      </div>
+      <div id="overlay"></div>
+      <section>
+        <!-- Navbar -->
         <nav>
           <button class="hamburger hamburger--spin" type="button">
             <span class="hamburger-box">
@@ -25,12 +34,14 @@
 
           <ul class="show-desktop hide-mobile active" id="nav">
             <li>
-              <a href="/index.html" class="current-screen cool-link">Home</a>
+              <a href="/index.html" class="cool-link">Home</a>
             </li>
             <li>
-              <a href="/members.html" class="cool-link">Members</a>
+              <a href="/members.html" class="current-screen cool-link">Members</a>
             </li>
-            <li><a href="/news.html" class="cool-link">News</a></li>
+            <li>
+              <a href="/news.html" class="cool-link">News</a>
+            </li>
             <li>
               <a href="/contacts.html" class="cool-link">Contact Us</a>
             </li>
@@ -42,8 +53,200 @@
           </ul>
         </nav>
       </section>
+
+      <h1 class="section-title">Current Members</h1>
+      <div class="members-section" id="current-members-section">
+        <!-- Membercards -->
+        <div class="member-card">
+          <!-- img -->
+          <div class="img"><img src="/Tao.9cfb426c.jpg" alt=""></div>
+
+          <!-- text section -->
+          <div class="info">
+            <div class="text">
+              <h2 class="name">Tao Jin</h2>
+              <h3 class="position">Group Leader</h3>
+            </div>
+
+            <!-- buttons -->
+            <div class="links">
+              <div data-box-target="#box" class="btn btn-right" id="tao">
+                <p>Read More</p>
+              </div>
+              <div class="btn">
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- membercard -->
+        <div class="member-card">
+          <!-- img -->
+          <div class="img"><img src="/Majd.1bcf4b85.JPG" alt=""></div>
+
+          <!-- text section -->
+          <div class="info">
+            <div class="text">
+              <h2 class="name">Majd Mohammad</h2>
+              <h3 class="position">Postdoc</h3>
+            </div>
+
+            <!-- buttons -->
+            <div class="links">
+              <div data-box-target="#box" class="btn btn-right" id="majd">
+                <p>Read More</p>
+              </div>
+              <div class="btn">
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- membercard -->
+        <div class="member-card">
+          <!-- img -->
+          <div class="img">
+            <img src="/Pradeep.8d6a1aed.jpg" alt="">
+          </div>
+
+          <!-- text section -->
+          <div class="info">
+            <div class="text">
+              <h2 class="name">Pradeep Kumar Kopparapu</h2>
+              <h3 class="position">Postdoc</h3>
+            </div>
+
+            <!-- buttons -->
+            <div class="links">
+              <div data-box-target="#box" class="btn btn-right" id="pradeep">
+                <p>Read More</p>
+              </div>
+              <div class="btn">
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- membercard -->
+        <div class="member-card">
+          <!-- img -->
+          <div class="img">
+            <img src="/Meghshree.652ccb0a.jpg" alt="">
+          </div>
+
+          <!-- text section -->
+          <div class="info">
+            <div class="text">
+              <h2 class="name">Meghshree Deshmukh</h2>
+              <h3 class="position">Intern</h3>
+            </div>
+
+            <!-- buttons -->
+            <div class="links">
+              <div data-box-target="#box" class="btn btn-right" id="meghshree">
+                <p>Read More</p>
+              </div>
+              <div class="btn">
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- membercard -->
+        <div class="member-card">
+          <!-- img -->
+          <div class="img">
+            <img src="/Michelle.becf36dc.jpeg" alt="">
+          </div>
+
+          <!-- text section -->
+          <div class="info">
+            <div class="text">
+              <h2 class="name">Michelle Schultz</h2>
+              <h3 class="position">Intern</h3>
+            </div>
+
+            <!-- buttons -->
+            <div class="links">
+              <div data-box-target="#box" class="btn btn-right" id="michelle">
+                <p>Read More</p>
+              </div>
+              <div class="btn">
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- membercard -->
+        <div class="member-card">
+          <!-- img -->
+          <div class="img">
+            <img src="/Balsam.0489a625.PNG" alt="">
+          </div>
+
+          <!-- text section -->
+          <div class="info">
+            <div class="text">
+              <h2 class="name">Balsam Hanna</h2>
+              <h3 class="position">PhD Student</h3>
+            </div>
+
+            <!-- buttons -->
+            <div class="links">
+              <div data-box-target="#box" class="btn btn-right" id="balsam">
+                <p>Read More</p>
+              </div>
+              <div class="btn">
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- membercard -->
+        <div class="member-card">
+          <!-- img -->
+          <div class="img">
+            <img src="/Zhicheng.c1057862.JPG" alt="">
+          </div>
+
+          <!-- text section -->
+          <div class="info">
+            <div class="text">
+              <h2 class="name">Zhicheng Hu</h2>
+              <h3 class="position">PhD Student</h3>
+            </div>
+
+            <!-- buttons -->
+            <div class="links">
+              <div data-box-target="#box" class="btn btn-right" id="zhicheng">
+                <p>Read More</p>
+              </div>
+              <div class="btn">
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer">
+          <a href="https://github.com/R-Jin" class="f-text">
+            <p>
+              <strong>Designed</strong> and <strong>Developed</strong> by Ryan
+              Jin
+            </p>
+          </a>
+        </div>
+      </footer>
     </main>
+    <script type="text/javascript" src="/ham_toggle.161cbb93.js"></script>
+    <script type="text/javascript" src="/readmore.8e170018.js"></script>
   </body>
-  <script src="/src.e31bb0bc.js"></script>
-  <script type="text/javascript" src="/ham_toggle.161cbb93.js"></script>
 </html>

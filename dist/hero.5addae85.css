@@ -36,7 +36,7 @@
   justify-content: space-around;
   align-items: center;
   border: solid;
-  border-width: 1.5px;
+  border-width: 2px;
   border-color: #fff;
   border-radius: 10px;
   text-align: center;
@@ -106,7 +106,7 @@
 
   .btn {
     width: 220px;
-    height: 60px;
+    height: 80px;
     font-size: 20px;
   }
 }

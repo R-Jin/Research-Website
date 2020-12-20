@@ -88,4 +88,8 @@
   #publication {
     padding: 100px 220px 150px 220px;
   }
+  #scopus {
+    padding: 30px 0;
+    border-radius: 22px;
+  }
 }
