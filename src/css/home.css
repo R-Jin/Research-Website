@@ -3,6 +3,11 @@
   max-width: 100%;
 }
 
+#publication {
+  background-color: #191919;
+  color: white;
+}
+
 .s-title {
   padding-left: 3px;
   padding-bottom: 8px;
@@ -14,6 +19,7 @@ a {
 
 #scopus {
   background-color: #ff8200;
+  border-color: #ff8200;
 }
 
 #scopus:active {
@@ -36,7 +42,8 @@ a {
   }
 
   #expertise {
-    padding: 0 80px 0 80px;
+    padding: 0 80px 100px 80px;
+    margin-bottom: 140px;
   }
 
   #publication {
