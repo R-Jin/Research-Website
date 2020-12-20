@@ -8,7 +8,6 @@ const target2 = document.querySelector("#publication");
 const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
-    smoothMobile: true
 });
 
 button.addEventListener("click", (e) => {
