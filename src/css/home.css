@@ -1,7 +1,7 @@
 #fig1 {
   padding: 20px 0 20px 0;
   max-width: 100%;
-  height: auto;
+  height: 100% !important;
 }
 
 .s-title {
