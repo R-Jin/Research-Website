@@ -36,7 +36,7 @@ const members = {
         info: ""
     },
     ali: {
-        name: "Ali Abukar",
+        name: "Abukar Ali",
         info: "Ali first joined Taos lab for his bachelor thesis project in 2010 and came back again for his master’s thesis project in 2012 and continued as a PhD candidate afterwards, defending his PhD thesis in 2016. Later, he returned to Taos lab as a postdoctoral fellow. He is also currently enrolled at the University of Gothenburg, studying medicine."
     }
 }
