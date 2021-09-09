@@ -38,6 +38,10 @@ const members = {
     ali: {
         name: "Abukar Ali",
         info: "Ali first joined Taos lab for his bachelor thesis project in 2010 and came back again for his master’s thesis project in 2012 and continued as a PhD candidate afterwards, defending his PhD thesis in 2016. Later, he returned to Taos lab as a postdoctoral fellow. He is also currently enrolled at the University of Gothenburg, studying medicine."
+    },
+    rama: {
+        name: "Rama Saleem",
+        info: "Rama Graduated in Biotechnology from Forman Christian College University, Lahore and obtained her M.Phil degree in same discipline from Quaid-i-Azam University, Islamabad, Pakistan in 2016. She started as a PhD student in Centre for Applied Molecular Biology, Punjab University, Lahore in 2017 and joined Tao Jin’s group as a PhD exchange student in 2021. Her focus area of research is to study epigenetic regulations of cytokines cells associated with Rheumatoid Arthritis.\n \n In the previous years, she was also working as a Molecular Biology Consultant in Genome Centre for Molecular based Diagnostic and Research and in Covid-19 testing lab under Primary and Secondary Health Care Department, Government of Punjab, Lahore, Pakistan."
     }
 }
 
